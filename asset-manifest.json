@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/movieApp/static/css/main.5415138d.chunk.css",
+    "main.js": "/movieApp/static/js/main.b6dc3204.chunk.js",
+    "main.js.map": "/movieApp/static/js/main.b6dc3204.chunk.js.map",
+    "runtime-main.js": "/movieApp/static/js/runtime-main.42d387db.js",
+    "runtime-main.js.map": "/movieApp/static/js/runtime-main.42d387db.js.map",
+    "static/js/2.94fb8f33.chunk.js": "/movieApp/static/js/2.94fb8f33.chunk.js",
+    "static/js/2.94fb8f33.chunk.js.map": "/movieApp/static/js/2.94fb8f33.chunk.js.map",
+    "index.html": "/movieApp/index.html",
+    "precache-manifest.1bca2217b7931cd7797ab14d65ae0927.js": "/movieApp/precache-manifest.1bca2217b7931cd7797ab14d65ae0927.js",
+    "service-worker.js": "/movieApp/service-worker.js",
+    "static/css/main.5415138d.chunk.css.map": "/movieApp/static/css/main.5415138d.chunk.css.map",
+    "static/js/2.94fb8f33.chunk.js.LICENSE.txt": "/movieApp/static/js/2.94fb8f33.chunk.js.LICENSE.txt",
+    "static/media/loader.png": "/movieApp/static/media/loader.fca62fb2.png",
+    "static/media/logo.png": "/movieApp/static/media/logo.f1f7de47.png",
+    "static/media/loupe.svg": "/movieApp/static/media/loupe.c5f8473f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42d387db.js",
+    "static/js/2.94fb8f33.chunk.js",
+    "static/css/main.5415138d.chunk.css",
+    "static/js/main.b6dc3204.chunk.js"
+  ]
+}

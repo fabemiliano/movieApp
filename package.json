@@ -1,6 +1,6 @@
 {
   "homepage": "http://fabemiliano.github.io/movieApp",
-  "name": "movieApp",
+  "name": "movies-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

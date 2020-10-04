@@ -77,16 +77,14 @@ export const getGenres = async (type) => {
     .then((response) => response.json());
 };
 
+export const trending = async () => fetch(`https://api.themoviedb.org/3/trending/all/week?api_key=${key}`)
+  .then((response) => response.json());
+
 export const getReviews = async (type, id) => {
   if (type === 'movie') {
     return fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${key}`)
       .then((response) => response.json());
   }
-  if (type === 'movie') {
-    return fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=${key}`)
-      .then((response) => response.json());
-  }
+  return fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=${key}`)
+    .then((response) => response.json());
 };
-
-export const trending = async () => fetch(`https://api.themoviedb.org/3/trending/all/week?api_key=${key}`)
-  .then((response) => response.json());
